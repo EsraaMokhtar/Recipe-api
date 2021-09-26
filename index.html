@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <div class="container">
+
+        <header>
+            <h1 class="text-white my-5 fw-bolder fs-1 ">Recipe</h1>
+
+            <select class="select form-control w-75 m-auto bg-light" style="width:500px;">
+                <option>salad</option>
+                <option>pizza</option>
+                <option>pasta</option>
+                <option>carrot</option>
+                <option>broccoli</option>
+                <option>asparagus</option>
+                <option>potato</option>
+                <option>corn</option>
+                <option>cucumber</option>
+                <option>green pepper</option>
+                <option>lettuce</option>
+                <option>mushrooms</option>
+            </select>
+
+        </header>
+
+        <div class=" bg-light border border-2 my-5">
+
+            <section id="recipesSearch" class="text-center py-5"> 
+                <div class="container-fluid py-5">
+                  <h2>Recipe Categories</h2>
+                  <p class="parg">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br />
+                    sed tincidunt ut laoreet dolore magna aliquam erat volutpat lorem
+                  </p>
+                </div>
+
+                <div class="container-fluid recipe text-left">
+                  <div class="row" id="rowData">
+
+                  </div>
+                </div>
+
+            </section>
+
+            <!-- Modal -->
+            <div class="modal fade" id="recipeId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <div class="modal-body singleRecipe ">
+                    
+                  </div>
+                  
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  
+  </body>
+</html>

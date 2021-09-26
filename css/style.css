@@ -1,0 +1,54 @@
+body
+{
+    font-family: 'segoe ui light';
+    background-image: url(../images/bg-full.jpg);
+    background-size: cover;
+    background-position:center center;
+    background-attachment: fixed;
+}
+
+.btn-mine
+{
+    background-color: #ff7d5f;
+}
+
+.recipe img
+{
+    height: 200px;
+    width: 200px;
+}
+
+.recipe h2{
+    font-size: 24px;
+}
+.recipe h4{
+    font-size: 16px;
+}
+
+.recipe-img img{
+    width: 100%;
+    height: 300px;
+}
+.parg{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width:557px){
+    .one-recipe{
+        width: 85%;
+        margin: 0px auto;
+    }
+
+    .recipe img
+    {
+    height: 200px;
+    width: 100%;
+    }
+
+    .parg{
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+}
