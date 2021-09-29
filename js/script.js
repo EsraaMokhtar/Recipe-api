@@ -93,7 +93,7 @@ function displayData(){
 
     for (var i = 0; i < ListOfData.length; i++) {
 
-        str += `<div class="col-xl-3 col-lg-4 col-md-6 mb-4 text-center">
+        str += `<div class="col-xl-3 col-lg-4 mb-4 text-center">
         <div class="one-recipe">
             <img onclick="getSingleRecipe('${ListOfData[i].recipe_id}')" src="${ListOfData[i].image_url}" class='img-fluid' data-bs-toggle="modal" data-bs-target="#recipeId" />
             <h2>${ListOfData[i].publisher}</h2>
