@@ -34,8 +34,8 @@ body
     font-weight: 300;
 }
 
-
-@media screen and (max-width:557px){
+/*557px */
+@media screen and (max-width: 760px ){
     .one-recipe{
         width: 85%;
         margin: 0px auto;
